@@ -27,12 +27,13 @@ int main()
     int l = 0;
 
     do {
-        cout << "\nmasukan nama = ";
+        cout << "masukan nama = ";
         cin >> nama[i];
         cout << "masukkan nilai matematika = " ;
         cin >> nilM;
         cout << "masukkan nilai bahasa inggris = ";
         cin >> nilB;
+        cout << endl;
        statuslg [l] = status(rerata(nilM, nilB), nilM);
         {
             if (statuslg[l] == "diterima")
