@@ -41,7 +41,7 @@ int main()
         // st = status(rerata(nilM, nilB));
        statuslg [l] = status(rerata(nilM, nilB), nilM);
         {
-            if (statuslg[l] == "")
+            if (statuslg[l] == "diterima")
                 lulus ++;
             else
                 gagal ++;
