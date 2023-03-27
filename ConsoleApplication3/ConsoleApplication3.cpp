@@ -33,12 +33,6 @@ int main()
         cin >> nilM;
         cout << "masukkan nilai bahasa inggris = ";
         cin >> nilB;
-        
-
-        // rerata = (nilM+nilB)/2
-        // rata = rerata(nilM, nilB)
-        // st = status(rata)
-        // st = status(rerata(nilM, nilB));
        statuslg [l] = status(rerata(nilM, nilB), nilM);
         {
             if (statuslg[l] == "diterima")
