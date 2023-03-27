@@ -33,7 +33,7 @@ int main()
         cin >> nilM;
         cout << "masukkan nilai bahasa inggris = ";
         cin >> nilB;
-        cout << endl;
+        
 
         // rerata = (nilM+nilB)/2
         // rata = rerata(nilM, nilB)
